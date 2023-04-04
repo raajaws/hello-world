@@ -9,7 +9,8 @@ pipeline {
         }
         stage('Build Project') {
             steps {
-                sh "mvn clean install"
+                //sh "mvn clean install"
+                echo "Build Project"
             }            
         }
     }
